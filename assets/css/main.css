@@ -3616,14 +3616,12 @@ input, select, textarea {
 	}
 
 	#header .content { 
-		border-radius: 100px;
+		border-radius: 60px;
 		background-color: #b2b2b2;
   		background-color: rgba(0, 0, 0, .6);
 	}
 
 	#header {
-		padding: 4.5em 0 2.5em 0 ;
-		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
@@ -3635,12 +3633,14 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("images/bw-photo.jpg");
+		background: url("images/bw-photo.jpg") no-repeat center center fixed;
 		background-position: top left, center center;
-		background-attachment: fixed, fixed;
-		background-size: 100%;
+		background-size: cover;
 		height: 100vh;
-		min-height: 35em;
+		max-width: 100%;
+		max-height: 100%;
+		
+	
 	}
 
 		#header input[type="submit"],
@@ -3895,7 +3895,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#header {
-				background-image: url("images/overlay.png"), url("images/pattern-size2.svg");
+				background-image: url("images/bw-photo.jpg");
 			}
 
 		}
@@ -3946,7 +3946,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header {
-				background-image: url("images/overlay.png"), url("images/pattern-size3.svg");
+				background-image: url("images/bw-photo.jpg");
 			}
 
 				#header h1 {
