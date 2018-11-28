@@ -11,27 +11,54 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+			  // Add smooth scrolling to all links
+			  $("a").on('click', function(event) {
+
+			    // Make sure this.hash has a value before overriding default behavior
+			    if (this.hash !== "") {
+			      // Prevent default anchor click behavior
+			      event.preventDefault();
+
+			      // Store hash
+			      var hash = this.hash;
+
+			      // Using jQuery's animate() method to add smooth page scroll
+			      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+			      $('html, body').animate({
+			        scrollTop: $(hash).offset().top
+			      }, 800, function(){
+			   
+			        // Add hash (#) to URL when done scrolling (default click behavior)
+			        window.location.hash = hash;
+			      });
+			    } // End if
+			  });
+			});
+</script>
+
 	</head>
 	<body class="is-mobile">
 
 		<!-- Header -->
-			<header id="header">
-				<div class="content">
-					<h1>Hello, I'm Brian Miller</h1>
-					<p>I am an aspiring Software Engineer from South Jersey<br />
-						scroll down into my life...<p>
-					<ul class="actions">
-						<li><a href="#" class="button primary icon fa-download">Download</a></li>
-						<li><a href="#one" class="button icon fa-chevron-down scrolly">Learn More</a></li>
-					</ul>
-				</div>
-				<!--
-				<div class="image phone"><div class="inner"><img src="images/screen.jpg" alt="" /></div>
-				-->
-			</div>
-			</header>
+			<section id="one">
+				<header id="header">
+					<div class="content">
+						<h1>Hello, I'm <br /></h1>
+						<h2>Brian Miller <br /></h2>
 
-		<!-- One -->
+						<p>I'm an aspiring Software Engineer<br />
+							scroll down into my life...</p>
+					</div>
+					<!--
+					<div class="image phone"><div class="inner"><img src="images/screen.jpg" alt="" /></div>
+					-->
+				</div>
+				</header>
+			</section>
+		<!-- One 
 			<section id="one" class="wrapper style2 special">
 				<header class="major">
 					<h2>Sed ipsum magna lorem tempus amet<br />
@@ -43,25 +70,26 @@
 					<li><span class="icon fa-cloud"><span class="label">Upload</span></span></li>
 				</ul>
 			</section>
-
+		-->
 			<ul class=menu>
-				<li><a href="#two">Section 1</a></li>
-				<li><a href="#details">Section 2</a></li>
-				<li><a href="#FAQ">Section 3</a></li>
+				<li><a href="#one">Home</a></li>
+				<li><a href="#two">Work Experience</a></li>
+				<li><a href="#three">Projects</a></li>
+				<li><a href="#four">About</a></li>
 			</ul>
 
 		<!-- Two -->
 			<section id="two" class="wrapper">
 				<div class="inner alt">
 					<section class="spotlight">
-						<div class="image"><img src="images/pic01.jpg" alt="" /></div>
+						<div class="image"><img src="images/EHRpic3.jpg" alt="" /></div>
 						<div class="content">
-							<h3>Magna sed ultrices</h3>
+							<h3>EHR Software</h3>
 							<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
 						</div>
 					</section>
 					<section class="spotlight">
-						<div class="image"><img src="images/pic02.jpg" alt="" /></div>
+						<div class="image"><img src="images/EHRpic3.jpg" alt="" /></div>
 						<div class="content">
 							<h3>Ultrices nullam aliquam</h3>
 							<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>

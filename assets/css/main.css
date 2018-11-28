@@ -181,7 +181,6 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: normal;
 		line-height: 1em;
-		margin: 0 0 1em 0;
 		letter-spacing: -0.0125em;
 	}
 
@@ -199,10 +198,7 @@ input, select, textarea {
 
 		}
 
-	h2 {
-		font-size: 1.75em;
-		line-height: 1.5em;
-	}
+	
 
 	h3 {
 		font-size: 1.5em;
@@ -226,9 +222,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 
-		h2 {
-			font-size: 1.25em;
-		}
+		
 
 		h3 {
 			font-size: 1.2em;
@@ -312,6 +306,7 @@ input, select, textarea {
 	}
 
 	a {
+		scroll-behavior: smooth;
 		color: inherit;
 		border-bottom-color: #d6d6d6;
 	}
@@ -325,7 +320,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #828282;
+		/* color: #828282; */
 	}
 
 	blockquote {
@@ -2075,7 +2070,6 @@ input, select, textarea {
 		margin-right: -2em;
 		opacity: 0;
 		width: 1em;
-		z-index: -1;
 	}
 
 		input[type="checkbox"] + label,
@@ -2248,7 +2242,8 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 6px;
+		z-index: 1;
+		border-radius: 1px;
 		border: 0;
 		display: inline-block;
 		position: relative;
@@ -2256,7 +2251,7 @@ input, select, textarea {
 	}
 
 		.image img {
-			border-radius: 6px;
+			border-radius: 1px;
 			display: block;
 		}
 
@@ -2386,15 +2381,18 @@ input, select, textarea {
 /* List */
 
 	.menu {
-		font-family: Brush Script MT, Brush Script Std, cursive;
+		z-index: 99999;
+		scroll-behavior: smooth;
+		font-family: Courier;
+		font-weight: bold;
+		font-size: 1.5em;
 		color: white;
   		position: fixed;
   		right: 0;
-  		top: 20%;
-  		width: 6em;
- 		margin-top: -2.5em;
- 		
- 		border-radius: 10px;
+  		top: 0;
+  		width: 100%;
+ 		margin-top: 0;
+ 		display: inline;
  		background: linear-gradient(rgba(0,0,0,.75), rgba(111,122,122,.75));
 
  	}
@@ -2410,17 +2408,23 @@ input, select, textarea {
 		}
 
 	ul {
-		list-style: disc;
+		text-align: center;
+		list-style: inline;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
+		padding: 10px 0;
 	}
 
 		ul li {
+			margin-left: 2em;
+  			margin-right: 2em;
+			display: inline-block;
 			padding-left: 0.5em;
+
 		}
 
 		ul.alt {
-			list-style: none;
+			list-style: inline;
 			padding-left: 0;
 		}
 
@@ -2748,14 +2752,14 @@ input, select, textarea {
 
 		.spotlight .image {
 			width: 30%;
-			border-radius: 100%;
+			border-radius: 1px;
 			margin: 0 3em 0 0;
 			display: block;
 		}
 
 			.spotlight .image img {
 				display: block;
-				border-radius: 100%;
+				border-radius: 1px;
 				width: 100%;
 			}
 
@@ -3602,26 +3606,44 @@ input, select, textarea {
 	}
 
 /* Header */
+	#header .content h2 {
+		font-family: Courier;
+		color: #32F4A4;
+		font-size: 2.25em;
+		font-weight: bold;
+		margin-bottom: .5em;
+		margin-left: .5em;
+		position: center;
+	}
+
 	#header .content h1{
-		font-family: Brush Script MT, Brush Script Std, cursive;
+		font-family: Courier;
 		color: #ffffff;
 		margin-top: .30em;
+		margin-bottom: .25em;
+		position: center;	
 	}
 
 	#header .content p{
-		font-family: "Bradley Hand", cursive;
+		font-size: 1.1em;
+		font-family: Courier;
 		color: #ffffff;
 		margin-right: .25em;
 		margin-left: .25em;
+		position: center;
+
 	}
 
 	#header .content { 
-		border-radius: 60px;
+
+		border-radius: 30px;
 		background-color: #b2b2b2;
   		background-color: rgba(0, 0, 0, .6);
 	}
 
 	#header {
+
+		position: relative;
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
@@ -3633,12 +3655,14 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background: url("images/bw-photo.jpg") no-repeat center center fixed;
-		background-position: top left, center center;
-		background-size: cover;
+		background: url("images/myImage.jpg") no-repeat center center fixed;
+		background-position: cover;
+		background-size: 100%;
 		height: 100vh;
+		width: 100%;
 		max-width: 100%;
 		max-height: 100%;
+
 		
 	
 	}
@@ -3830,7 +3854,7 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			font-size: 2.75em;
+			font-size: 1.75em;
 			font-weight: bold;
 			margin-bottom: 0.5em
 			margin-right: .5em;
@@ -3854,7 +3878,6 @@ input, select, textarea {
 			transform: translateX(0);
 			opacity: 1;
 			text-align: center;
-			margin: -3.5em 4em 0 0;
 		}
 
 			#header .content > :last-child {
@@ -3895,7 +3918,8 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#header {
-				background-image: url("images/bw-photo.jpg");
+				margin-top:0;
+				background-image: url("images/myImage.jpg");
 			}
 
 		}
@@ -3903,7 +3927,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#header {
-				height: auto;
+				height: auto, cover;
 				min-height: 0;
 			}
 
@@ -3946,17 +3970,16 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header {
-				background-image: url("images/bw-photo.jpg");
+				margin-top:0;
+				background-image: url("images/myImage.jpg");
 			}
 
-				#header h1 {
-					font-size: 2em;
-				}
+				
 
-				#header p {
-					font-size: 1em;
-					line-height: inherit;
-				}
+			#header p {
+				font-size: 1em;
+				line-height: inherit;
+			}
 
 		}
 
