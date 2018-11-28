@@ -3919,7 +3919,7 @@ input, select, textarea {
 
 			#header {
 				margin-top:0;
-				background-image: url("images/myImage.jpg");
+				background-image: url("images/myImage.JPG");
 			}
 
 		}
@@ -3929,7 +3929,7 @@ input, select, textarea {
 			#header {
 				height: auto, cover;
 				min-height: 0;
-				background-image: url("images/myImage.jpg");
+				background-image: url("images/myImage.JPG");
 
 			}
 
@@ -3954,7 +3954,7 @@ input, select, textarea {
 				-webkit-flex-direction: column-reverse;
 				-ms-flex-direction: column-reverse;
 				flex-direction: column-reverse;
-				background-image: url("images/myImage.jpg");
+				background-image: url("images/myImage.JPG");
 
 			}
 
@@ -3975,7 +3975,7 @@ input, select, textarea {
 
 			#header {
 				margin-top:0;
-				background-image: url("images/myImage.jpg");
+				background-image: url("images/myImage.JPG");
 			}
 
 				
@@ -3991,7 +3991,7 @@ input, select, textarea {
 
 			#header {
 				padding: 2em 2em 0.1em 2em ;
-				background-image: url("images/myImage.jpg");
+				background-image: url("images/myImage.JPG");
 			}
 
 				#header .content {
@@ -4014,7 +4014,7 @@ input, select, textarea {
 
 			#header {
 				padding: 3em 1.5em 1em 1.5em ;
-				background-image: url("images/myImage.jpg");
+				background-image: url("images/myImage.JPG");
 			}
 
 				#header .image {
@@ -4028,7 +4028,7 @@ input, select, textarea {
 
 		#header {
 			padding: 2em 1.5em 0.1em 1.5em ;
-			background-image: url("images/myImage.jpg");
+			background-image: url("images/myImage.JPG");
 		}
 
 			#header .image {
@@ -4045,7 +4045,7 @@ input, select, textarea {
 
 		#header {
 			padding: 2em 1em 0.1em 1em ;
-			background-image: url("images/myImage.jpg");
+			background-image: url("images/myImage.JPG");
 		}
 
 	}
@@ -4077,7 +4077,7 @@ input, select, textarea {
 	@media screen and (max-width: 980px) and (orientation: portrait) {
 
 		body.is-preload #header .content {
-			background-image: url("images/myImage.jpg");
+			background-image: url("images/myImage.JPG");
 			-moz-transform: none;
 			-webkit-transform: none;
 			-ms-transform: none;
