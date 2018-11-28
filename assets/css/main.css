@@ -3655,7 +3655,7 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background: url("images/myImage.jpg") no-repeat center center fixed;
+		background: url("images/myImage.JPG") no-repeat center center fixed;
 		background-position: cover;
 		background-size: 100%;
 		height: 100vh;
