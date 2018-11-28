@@ -3949,6 +3949,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) and (orientation: portrait) {
 
 			#header {
+				padding: 6em 3em 4em 3em ;
 				-moz-flex-direction: column-reverse;
 				-webkit-flex-direction: column-reverse;
 				-ms-flex-direction: column-reverse;
@@ -4012,6 +4013,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) and (orientation: portrait) {
 
 			#header {
+				padding: 3em 1.5em 1em 1.5em ;
 				background-image: url("images/myImage.JPG");
 			}
 
@@ -4042,6 +4044,7 @@ input, select, textarea {
 	@media screen and (max-width: 480px) and (orientation: portrait) {
 
 		#header {
+			padding: 2em 1em 0.1em 1em ;
 			background-image: url("images/myImage.JPG");
 		}
 
