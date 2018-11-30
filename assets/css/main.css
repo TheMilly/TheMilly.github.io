@@ -2396,7 +2396,7 @@ input, select, textarea {
  		margin-top: 0;
  		display: inline;
  		background: linear-gradient(rgba(0,0,0,.75), rgba(111,122,122,.75));
- 		
+
  	}
  	
 	ol {
@@ -3657,7 +3657,7 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background: url("images/myImageCopy.JPG") no-repeat, center center;
+		background: url("images/myImageCopy.jpg") no-repeat, center center;
 		background-position: cover;
 		background-size: 100%;
 		height: 100vh;
@@ -3921,7 +3921,7 @@ input, select, textarea {
 
 			#header {
 				margin-top:0;
-				background-image: url("images/myImageCopy.JPG");
+				background-image: url("images/myImageCopy.jpg");
 			}
 		}
 
@@ -3930,7 +3930,7 @@ input, select, textarea {
 			#header {
 				height: 20em;
 				min-height: 0;
-				background-image: url("images/myImageCopy.JPG");
+				background-image: url("images/myImageCopy.jpg");
 
 			}
 
@@ -3970,7 +3970,7 @@ input, select, textarea {
 				-webkit-flex-direction: column-reverse;
 				-ms-flex-direction: column-reverse;
 				flex-direction: column-reverse;
-				background-image: url("images/myImageCopy.JPG");
+				background-image: url("images/myImageCopy.jpg");
 
 			}
 
@@ -3990,7 +3990,7 @@ input, select, textarea {
 
 			#header {
 				margin-top:0;
-				background-image: url("images/myImageCopy.JPG");
+				background-image: url("images/myImageCopy.jpg");
 			}
 
 				
@@ -4006,7 +4006,7 @@ input, select, textarea {
 
 			#header {
 				padding: 2em 2em 0.1em 2em ;
-				background-image: url("images/myImageCopy.JPG");
+				background-image: url("images/myImageCopy.jpg");
 			}
 
 				#header .content {
@@ -4029,7 +4029,7 @@ input, select, textarea {
 
 			#header {
 				padding: 3em 1.5em 1em 1.5em ;
-				background-image: url("images/myImageCopy.JPG");
+				background-image: url("images/myImageCopy.jpg");
 			}
 
 				#header .image {
@@ -4043,7 +4043,7 @@ input, select, textarea {
 
 		#header {
 			padding: 2em 1.5em 0.1em 1.5em ;
-			background-image: url("images/myImageCopy.JPG");
+			background-image: url("images/myImageCopy.jpg");
 		}
 
 			#header .image {
@@ -4060,7 +4060,7 @@ input, select, textarea {
 				#header {
 					height: 20em;
 					min-height: 0;
-					background-image: url("images/myImageCopy.JPG");
+					background-image: url("images/myImageCopy.jpg");
 
 				}
 
@@ -4082,7 +4082,7 @@ input, select, textarea {
 
 		#header {
 			padding: 2em 1em 0.1em 1em ;
-			background-image: url("images/myImageCopy.JPG");
+			background-image: url("images/myImageCopy.jpg");
 		}
 
 	}
@@ -4114,7 +4114,7 @@ input, select, textarea {
 	@media screen and (max-width: 980px) and (orientation: portrait) {
 
 		body.is-preload #header .content {
-			background-image: url("images/myImageCopy.JPG");
+			background-image: url("images/myImageCopy.jpg");
 			-moz-transform: none;
 			-webkit-transform: none;
 			-ms-transform: none;
