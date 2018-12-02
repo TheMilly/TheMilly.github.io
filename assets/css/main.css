@@ -4003,7 +4003,7 @@ input, select, textarea {
 			#header {
 				margin-top:0;
 				background-image: url("images/myImageCopy.jpg");
-				height: 30em;
+				height: 100vh;
 			}
 			
 			#header .content {
