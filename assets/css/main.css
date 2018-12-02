@@ -4061,6 +4061,7 @@ input, select, textarea {
 				flex-direction: column-reverse;
 				background-image: url("images/myImageCopy.jpg");
 
+
 			}
 
 				#header .content {
@@ -4147,7 +4148,7 @@ input, select, textarea {
 	@media screen and (max-width: 480px) {
 
 				#header {
-					height: 20em;
+					height: 15em;
 					min-height: 0;
 					background-image: url("images/myImageCopy.jpg");
 
@@ -4155,7 +4156,7 @@ input, select, textarea {
 
 					#header .content {
 						display: block;
-						margin-bottom:6em;
+						margin-bottom:2em;
 						position: center;
 					}
 
@@ -4170,10 +4171,15 @@ input, select, textarea {
 	@media screen and (max-width: 480px) and (orientation: portrait) {
 
 		#header {
+			height: 15em;
 			padding: 2em 1em 0.1em 1em ;
 			background-image: url("images/myImageCopy.jpg");
 		}
-
+		#header .content {
+			display: block;
+			margin-bottom:2em;
+			position: center;
+		}
 	}
 
 		body.is-mobile #header {
