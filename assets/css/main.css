@@ -2781,7 +2781,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1300px) {
+		@media screen and (max-width: 1480px) {
 
 			header.major iframe {
 				float: none;
