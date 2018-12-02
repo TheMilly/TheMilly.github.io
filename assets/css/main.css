@@ -2718,6 +2718,31 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	header.major p{
+		clear: both;
+	}
+
+	header.major iframe {
+		float: right;
+		margin-right: 8em;
+		height: 22em;
+		width: 45%;
+		margin-bottom: 2em;
+		
+	}
+
+	header.major img {
+		
+		width: 17%;
+		float: left;
+		margin-left: 20em;
+		margin-bottom: 2em;
+		background:transparent;
+    	padding:8px;
+    	border:1px solid #999999;
+    	
+	}
+
 		header.major:after {
 			content: '';
 			border-bottom: solid 2px #e6e6e6;
@@ -2732,9 +2757,53 @@ input, select, textarea {
 				margin: 0 0 2em 0;
 			}
 
-				header.major p {
-					font-size: 1em;
-				}
+			header.major p {
+				font-size: 1em;
+			}
+
+			header.major iframe {
+				margin: auto;
+				height: 22em;
+				width: 50%
+				margin-bottom: 2em;
+				clear: both;
+			}
+
+			header.major img {
+				width: 50em;
+				margin:auto;
+				margin-bottom: 2em;
+				background:transparent;
+		    	padding:8px;
+		    	border:1px solid #999999;
+		    	clear: both;
+			}
+
+		}
+
+		@media screen and (max-width: 1300px) {
+
+			header.major iframe {
+				float: none;
+				margin: auto;
+				height: 30em;
+				width: 70%;
+				margin-bottom: 2em;
+				clear: both;
+			}
+
+			header.major img {
+				
+				float: none;
+				margin: auto;
+				align-self: center;
+				width: 30%;
+				margin-bottom: 2em;
+				background:transparent;
+		    	padding:8px;
+		    	border:1px solid #999999;
+		    	clear: both;
+			}
 
 		}
 
