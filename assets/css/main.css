@@ -2793,7 +2793,6 @@ input, select, textarea {
 			}
 
 			header.major img {
-				
 				float: none;
 				margin: auto;
 				align-self: center;
@@ -3991,7 +3990,26 @@ input, select, textarea {
 			#header {
 				margin-top:0;
 				background-image: url("images/myImageCopy.jpg");
+				height: 30em;
 			}
+			#header .content {
+					margin: 0em 0em 5em 0;
+				}
+
+		}
+
+		@media screen and (max-width: 1480px) {
+
+			#header {
+				margin-top:0;
+				background-image: url("images/myImageCopy.jpg");
+				height: 30em;
+			}
+			
+			#header .content {
+					margin: 0em 0em 0em 0;
+				}
+
 		}
 
 		@media screen and (max-width: 980px) {
@@ -4016,10 +4034,12 @@ input, select, textarea {
 
 
 			.menu {
+						padding-bottom: .1em;
 						z-index: 99999;
 						font-family: Courier;
 						font-weight: bold;
-						font-size: 1em;
+						font-size: .75em;
+						line-height: 1.4em;
 						color: white;
 				  		position: fixed;
 				  		right: 0;
