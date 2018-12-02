@@ -4003,11 +4003,12 @@ input, select, textarea {
 			#header {
 				margin-top:0;
 				background-image: url("images/myImageCopy.jpg");
-				height: 100vh;
+				height: 30em;
+				min-height: 100vh;
 			}
 			
 			#header .content {
-					margin: 0em 0em 0em 0;
+					margin: 0em 0em 5em 0;
 				}
 
 		}
@@ -4022,7 +4023,7 @@ input, select, textarea {
 			}
 
 				#header .content {
-					margin: -2em 4em 0 0;
+					margin: 0em 0em 4em 0;
 				}
 
 					#header .content .actions {
