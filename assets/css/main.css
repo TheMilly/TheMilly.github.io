@@ -4247,7 +4247,7 @@ input, select, textarea {
 	#footer {
 		background-color: #f7f7f7;
 		color: #999999;
-		padding: 4.5em 0 2.5em 0 ;
+		padding: 2.5em 0 .5em 0 ;
 		color: #b0b0b0;
 		text-align: center;
 	}
@@ -4297,7 +4297,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#footer {
-				padding: 4em 4em 2em 4em ;
+				padding: 2em 1em 0em 1em ;
 			}
 
 		}
