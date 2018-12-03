@@ -2595,6 +2595,7 @@ input, select, textarea {
 		ul.icons li {
 			display: inline-block;
 			padding: 0 1.5em 0 0;
+			color: #000000;
 		}
 
 			ul.icons li:last-child {
@@ -2633,7 +2634,12 @@ input, select, textarea {
 			ul.icons li {
 			display: inline-block;
 			padding: 0 .25em 0 0;
+			color: #000000;
+			width: 3%;
+			height: 3%;
 			}
+
+
 		}
 
 		ul.icons.labeled li {
@@ -2650,7 +2656,7 @@ input, select, textarea {
 			ul.icons.labeled li .icon .label {
 				display: inline-block;
 				vertical-align: middle;
-				color: #999999;
+				color: #000000;
 			}
 
 	@media screen and (max-width: 736px) and (orientation: portrait) {
@@ -4294,7 +4300,7 @@ input, select, textarea {
 
 	#footer {
 		background-color: #f7f7f7;
-		color: #999999;
+		color: #000000;
 		padding: 2.5em 0 .5em 0 ;
 		color: #b0b0b0;
 		text-align: center;
