@@ -2623,6 +2623,17 @@ input, select, textarea {
 					font-size: 1.75rem;
 				}
 
+			ul.icons li {
+			display: inline-block;
+			padding: 0 .25em 0 0;
+			}
+		}
+
+		@media screen and (max-width: 480px) {
+			ul.icons li {
+			display: inline-block;
+			padding: 0 .25em 0 0;
+			}
 		}
 
 		ul.icons.labeled li {
@@ -3209,6 +3220,13 @@ input, select, textarea {
 		.wrapper.style2 {
 			background-color: #fbfbfb;
 			color: #999999;
+		}
+
+		.wrapper.style2 p{
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+			color: #4B4847;
 		}
 
 			.wrapper.style2 input[type="submit"],
@@ -3997,6 +4015,9 @@ input, select, textarea {
 					margin: 0em 0em 5em 0;
 				}
 
+			.menu {
+				font-size: 1em;
+			}
 		}
 
 		@media screen and (max-width: 1480px) {
@@ -4034,24 +4055,50 @@ input, select, textarea {
 						justify-content: center;
 					}
 
-
 			.menu {
-						padding-bottom: .1em;
-						z-index: 99999;
-						font-family: Courier;
-						font-weight: bold;
-						font-size: .75em;
-						line-height: 1.4em;
-						color: white;
-				  		position: fixed;
-				  		right: 0;
-				  		top: 0;
-				  		width: 100%;
-				 		margin-top: 0;
-				 		display: inline;
-				 		background: linear-gradient(rgba(0,0,0,.75), rgba(111,122,122,.75));
+				padding-bottom: .25em;
+				padding-top: .25em;
+				padding-left: .1em;
+				padding-right: .1em;
+				z-index: 99999;
+				font-family: Courier;
+				font-weight: bold;
+				font-size: 1.1em;
+				line-height: 1.2em;
+				color: white;
+		  		position: fixed;
+		  		right: 0;
+		  		top: 0;
+		  		width: 100%;
+		 		margin-top: 0;
+		 		display: inline;
+		 		background: linear-gradient(rgba(0,0,0,.75), rgba(111,122,122,.75));
 
-				 	}
+			}
+			
+		}
+
+		@media screen and (max-width: 780px) {
+			.menu {
+				padding-bottom: .1em;
+				padding-top: .2em;
+				padding-left: .1em;
+				padding-right: .1em;
+				z-index: 99999;
+				font-family: Courier;
+				font-weight: bold;
+				font-size: .75em;
+				line-height: 1.4em;
+				color: white;
+		  		position: fixed;
+		  		right: 0;
+		  		top: 0;
+		  		width: 100%;
+		 		margin-top: 0;
+		 		display: inline;
+		 		background: linear-gradient(rgba(0,0,0,.75), rgba(111,122,122,.75));
+
+			}
 		}
 
 		@media screen and (max-width: 980px) and (orientation: portrait) {
@@ -4248,7 +4295,7 @@ input, select, textarea {
 	#footer {
 		background-color: #f7f7f7;
 		color: #999999;
-		padding: 4.5em 0 2.5em 0 ;
+		padding: 2.5em 0 .5em 0 ;
 		color: #b0b0b0;
 		text-align: center;
 	}
@@ -4298,7 +4345,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#footer {
-				padding: 4em 4em 2em 4em ;
+				padding: 2em 1em 0em 1em ;
 			}
 
 		}
