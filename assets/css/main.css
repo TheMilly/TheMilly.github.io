@@ -4160,6 +4160,7 @@ input, select, textarea {
 						display: block;
 						margin-bottom:2em;
 						position: center;
+						background: linear-gradient(rgba(0,0,0,.4), rgba(80,80,80,.4));
 					}
 
 						#header .content .actions {
